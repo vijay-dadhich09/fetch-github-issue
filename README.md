@@ -17,3 +17,12 @@ When user provide GitHub organization, repository and author (optional) and clic
 - TypeScript
 - "@testing-library/jest-native"
 - "@testing-library/react-native"
+
+## Installation
+### Running client and server:
+Open a terminal window
+1. Clone repo
+2. `cd fetch-github-issue && yarn or npm i`
+3. `cd ios && pod install && cd ..`
+4. To run on ios: `yarn ios` 
+4. To run on android: `yarn android` 

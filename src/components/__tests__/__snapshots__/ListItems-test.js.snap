@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Listitem test renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "padding": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#273746",
+        "fontSize": 20,
+        "fontWeight": "800",
+        "textAlign": "center",
+      }
+    }
+  >
+    List of Issues
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 10,
+        "marginTop": 10,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#C0392B",
+          "opacity": 1,
+          "padding": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FDEDEC",
+            "fontSize": 15,
+            "fontWeight": "800",
+            "textAlign": "center",
+          }
+        }
+      >
+        next
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#273746",
+          "fontSize": 15,
+          "fontWeight": "800",
+          "textAlign": "center",
+        }
+      }
+    >
+      Page 1 of 1
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#C0392B",
+          "opacity": 1,
+          "padding": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FDEDEC",
+            "fontSize": 15,
+            "fontWeight": "800",
+            "textAlign": "center",
+          }
+        }
+      >
+        last
+      </Text>
+    </View>
+  </View>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    contentContainerStyle={
+      Object {
+        "marginTop": 10,
+        "paddingBottom": 10,
+      }
+    }
+    data={
+      Array [
+        Object {
+          "id": 842912478,
+          "title": "Automatic update of the \`kubernetes\` packages.",
+        },
+        Object {
+          "id": 842668222,
+          "number": 805,
+          "title": "diskutils: add more robust handling of disk/partition operations",
+        },
+        Object {
+          "id": 842369440,
+          "title": "Change dropdown menus to accessible input fields",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#5DADE2",
+              "justifyContent": "center",
+              "minHeight": 60,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#09182b",
+                "fontSize": 15,
+                "fontWeight": "800",
+              }
+            }
+          >
+            Automatic update of the \`kubernetes\` packages.
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "height": 5,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#5DADE2",
+              "justifyContent": "center",
+              "minHeight": 60,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#09182b",
+                "fontSize": 15,
+                "fontWeight": "800",
+              }
+            }
+          >
+            diskutils: add more robust handling of disk/partition operations
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "height": 5,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#5DADE2",
+              "justifyContent": "center",
+              "minHeight": 60,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#09182b",
+                "fontSize": 15,
+                "fontWeight": "800",
+              }
+            }
+          >
+            Change dropdown menus to accessible input fields
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

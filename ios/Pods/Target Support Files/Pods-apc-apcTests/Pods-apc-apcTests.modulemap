@@ -1,0 +1,6 @@
+module Pods_apc_apcTests {
+  umbrella header "Pods-apc-apcTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
