@@ -26,3 +26,7 @@ Open a terminal window
 3. `cd ios && pod install && cd ..`
 4. To run on ios: `yarn ios` 
 4. To run on android: `yarn android` 
+
+### Screens
+![Alt text](/screenshots/screen1.png?raw=true "Main Screen")
+![Alt text](/screenshots/screen2.png?raw=true "Github issues screen")
