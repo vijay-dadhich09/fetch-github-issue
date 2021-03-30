@@ -26,7 +26,9 @@ Open a terminal window
 2. `cd fetch-github-issue && yarn or npm i`
 3. `cd ios && pod install && cd ..`
 4. To run on ios: `yarn ios` 
-4. To run on android: `yarn android` 
+5. To run on android: `yarn android` 
+6. To run tests: `yarn test` 
+7. To run tests with coverage: `yarn test:coverage` 
 
 ### Screens
 ![Alt text](/screenshots/screen1.png?raw=true "Main Screen")
