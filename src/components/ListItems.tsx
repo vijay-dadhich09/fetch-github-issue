@@ -4,8 +4,6 @@ import {View, Text, FlatList, StyleSheet, TouchableOpacity} from 'react-native';
 interface ListProps {
 	urls: any[], 
 	issues: any,
-	loading: boolean,
-	hasErrors: boolean,
 	loadMore: Function,
 	currentPage: number,
 	totalCount: number
@@ -47,9 +45,9 @@ const renderPaggination = (urls: any[], loadMore: Function, currentPage: number,
 }
 
 function ListItems (props: ListProps) {
-	const { loading, hasErrors, issues, urls, currentPage, loadMore, totalCount } = props;
+	const { issues, urls, currentPage, loadMore, totalCount } = props;
 	const { items } = issues && issues[currentPage] || {};
-	// console.log('data-loading: ', loading);
+	// console.log('data-currentPage: ', currentPage);
   return (
 		<View style={styles.container}>
 			<Text style={styles.titleText}>List of Issues</Text>

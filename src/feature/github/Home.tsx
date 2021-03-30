@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useCallback} from 'react'
 import {  
 	View, 
 	StyleSheet, 
@@ -27,6 +27,9 @@ const Home = (): React.ReactElement => {
 	const onSearchHandler = () => {
 		dispatch(fetchIssues(orgs, repo, author, 1));
 	}
+	const loadMoreCallback = useCallback((_url: string, _page: number) => {
+		onLoadMore(_url, _page)
+	},[]);
 	const onLoadMore = (_url: string, _page: number) => {
 		dispatch(fetchIssues(orgs, repo, author, _page));
 	}
@@ -72,10 +75,8 @@ const Home = (): React.ReactElement => {
 			{!objectEmptyCheck(issues) && <ListItems 
 				urls={urls} 
 				issues={issues} 
-				loading={loading} 
-				hasErrors={hasErrors}
 				currentPage={currentPage}
-				loadMore={onLoadMore}
+				loadMore={loadMoreCallback}
 				totalCount={totalCount}
 			/>}
 			{loading && <View style={styles.loading}>
